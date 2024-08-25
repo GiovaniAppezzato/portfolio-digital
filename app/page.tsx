@@ -49,7 +49,7 @@ function Home() {
                         <a href={githubUrl} className="link-hover-fx" target='_blank'>GITHUB</a>
                       </li>
                       <li>
-                        <a href={instagramUrl} className="link-hover-fx" target='_blank'>WHATSAPP</a>
+                        <a href={whatsAppUrl} className="link-hover-fx" target='_blank'>WHATSAPP</a>
                       </li>
                     </ul>
                   </div>
