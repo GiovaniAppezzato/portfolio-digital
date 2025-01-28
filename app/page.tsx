@@ -39,7 +39,9 @@ function Home() {
                 <div className="row">
                   <div className="col-md-6">
                     <h1 className="carousel-item-title" data-animation="animated fadeInRight" data-number="01"><span>Giovani Appezzato N. Rosa</span></h1>
-                    <p className="carousel-item-description" data-animation="animated fadeInRight">Desenvolvedor de Software - PHP, Laravel, Next.js, React Native, TypeScript e mais.</p>
+                    <p className="carousel-item-description" data-animation="animated fadeInRight">
+                      Desenvolvedor de Software - PHP, Laravel, Next.js, React Native, Vue.js e TypeScript.
+                    </p>
                     <a href="#about" className="carousel-item-link link-hover-fx" data-animation="animated fadeInRight">VER MAIS</a>
                     <ul className="carousel-item-social-links nav" data-animation="animated fadeInRight">
                       <li>
@@ -54,7 +56,7 @@ function Home() {
                     </ul>
                   </div>
                   <div className="col-md-6">
-                    <img src="https://avatars.githubusercontent.com/u/93620877" alt="Remarkable Digital Products" className="img-fluid w-100 rounded" width="372px" />
+                    <img src="/assets/images/eu.webp" alt="Remarkable Digital Products" className="img-fluid w-100 rounded" width="372px" />
                   </div>
                 </div>
               </div>
@@ -98,11 +100,13 @@ function Home() {
           <div className="row">
             <div className="col-md-6 d-flex flex-column justify-content-center wow fadeInUp">
               <h2 className="section-title mb-3">Desenvolvedor de Software</h2>
-              <p className="section-text-ct">Sou analista de sistemas e desenvolvedor de software com 2 anos e meio de experiência, especializado no desenvolvimento, manutenção e otimização de sistemas. Tenho sólida experiência em criação de APIs REST e desenvolvimento de aplicações web e mobile de alta performance. Possuo habilidades em linguagens como PHP, JavaScript e C#, e sou proficiente em ferramentas e frameworks como Laravel, React, Next.js, Vue.js, Redis e Socket.io, entre outros.</p>
+              <p className="section-text-ct">
+              Olá! Sou desenvolvedor de software com quase 3 anos de experiência em criação de APIs REST e no desenvolvimento de aplicações web e mobile. Especialista em PHP, JavaScript, C# e frameworks como Laravel, React, Next.js, Ionic e outras, com foco em soluções escaláveis e de alta performance. 
+              </p>
             </div>
             <div className="col-md-6 wow fadeInUp">
               <img src="assets/images/img_3.png" className="w-100 mb-5" alt="Digital Product Design"/>
-              <p className="section-text-light">Já trabalhei com metodologias ágeis (Scrum e Kanban) garantindo entregas eficientes. Sou apaixonado por tecnologia e estou em constante busca por desafios que me permitam aplicar e expandir minhas habilidades.</p>
+              <p className="section-text-light">Apaixonado por tecnologia, estou sempre em busca de desafios que me permitam aplicar minhas habilidades e aprender novas soluções. Se você procura um profissional comprometido e orientado a resultados!</p>
               <a href='/curriculo_giovani_appezzato.pdf' className="hiro-btn-outline" target='_blank'>
                 Baixar Currículo
               </a>
