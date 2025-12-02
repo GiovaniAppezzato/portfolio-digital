@@ -190,18 +190,6 @@ function Home() {
                 </a>
               </div>
               <div className="project-card wow fadeInUp">
-                <img src="assets/images/writeflow.jpg" alt="Project" className="project-thumbnail"/>
-                <h6 className="project-title" style={{ color: "#810dca" }}>Writeflow</h6>
-                <p className="Project-category text-justify">
-                  Sistema low-code/no-code que proporciona autonomia na implementação de fluxos de trabalho com a notação BPMN, desde a criação de processos até a execução e geração de relatórios para análise de resultados.
-                </p>
-                <a className='text-black' style={{ fontSize: "14px" }} href="https://www.writeflow.com.br/" target="_blank">
-                  Clique aqui para ver o site
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4 wow fadeInUp">
-              <div className="project-card wow fadeInUp">
                 <img src="assets/images/coinzz.png" alt="Project" className="project-thumbnail"/>
                 <h6 className="project-title" style={{ color: "#770dd3" }}>Coinzz</h6>
                 <p className="Project-category text-justify">
@@ -210,14 +198,35 @@ function Home() {
                 <a className='text-black' style={{ fontSize: "14px" }} href="https://coinzz.com.br/" target="_blank">
                   Clique aqui para ver o site
                 </a>
-              </div>
-              <div className="project-card wow fadeInUp">
+              </div><div className="project-card wow fadeInUp">
                 <img src="assets/images/lovekar.png" alt="Project" className="project-thumbnail"/>
                 <h6 className="project-title" style={{ color: "#a6252a" }}>Lovekar Automotive</h6>
                 <p className="Project-category text-justify">
                   Plataforma de agendamento de horários com oficinas da região, com o objetivo de facilitar a comunicação entre proprietários de veículos, lojas de autopeças e oficinas.
                 </p>
                 <a className='text-black' style={{ fontSize: "14px" }} href="https://www.lovekar.com.br/" target="_blank">
+                  Clique aqui para ver o site
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4 wow fadeInUp">
+              <div className="project-card wow fadeInUp">
+                <img src="assets/images/tip.png" alt="Project" className="project-thumbnail"/>
+                <h6 className="project-title" style={{ color: "#a40607" }}>TIP MVNO 5G</h6>
+                <p className="Project-category text-justify">
+                  Solução de Operadora Móvel Virtual (MVNO), que fornece serviços de telefonia para provedores de internet (ISPs). Essencialmente, a plataforma atua para que esses provedores possam oferecer serviços de celular 5G, com a sua própria marca, utilizando a infraestrutura de operadoras tradicionais como a TIM ou Vivo.
+                </p>
+                <a className='text-black' style={{ fontSize: "14px" }} href="https://tipbrasil.com.br/mvno/" target="_blank">
+                  Clique aqui para ver o site
+                </a>
+              </div>
+              <div className="project-card wow fadeInUp">
+                <img src="assets/images/writeflow.jpg" alt="Project" className="project-thumbnail"/>
+                <h6 className="project-title" style={{ color: "#810dca" }}>Writeflow</h6>
+                <p className="Project-category text-justify">
+                  Sistema low-code/no-code que proporciona autonomia na implementação de fluxos de trabalho com a notação BPMN, desde a criação de processos até a execução e geração de relatórios para análise de resultados.
+                </p>
+                <a className='text-black' style={{ fontSize: "14px" }} href="https://www.writeflow.com.br/" target="_blank">
                   Clique aqui para ver o site
                 </a>
               </div>
