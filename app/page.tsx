@@ -40,7 +40,7 @@ function Home() {
                   <div className="col-md-6">
                     <h1 className="carousel-item-title" data-animation="animated fadeInRight" data-number="01"><span>Giovani Appezzato N. Rosa</span></h1>
                     <p className="carousel-item-description" data-animation="animated fadeInRight">
-                      Desenvolvedor de Software - PHP, Laravel, Next.js, React Native, Vue.js e TypeScript.
+                      Desenvolvedor de Software - PHP, Laravel, Hyperf, Go, Next.js, Vue.js.
                     </p>
                     <a href="#about" className="carousel-item-link link-hover-fx" data-animation="animated fadeInRight">VER MAIS</a>
                     <ul className="carousel-item-social-links nav" data-animation="animated fadeInRight">
@@ -99,14 +99,14 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 d-flex flex-column justify-content-center wow fadeInUp">
-              <h2 className="section-title mb-3">Desenvolvedor de Software</h2>
+              <h2 className="section-title mb-3">Sobre</h2>
               <p className="section-text-ct">
-              Olá! Sou desenvolvedor de software com quase 3 anos de experiência em criação de APIs REST e no desenvolvimento de aplicações web e mobile. Especialista em PHP, JavaScript, C# e frameworks como Laravel, React, Next.js, Ionic e outras, com foco em soluções escaláveis e de alta performance. 
+                Analista de Sistemas e Desenvolvedor Full Stack, com mais de 4 anos de experiência no desenvolvimento de aplicações web e mobile, atuando com foco em performance, escalabilidade e boas práticas no desenvolvimento de APIs REST.
               </p>
             </div>
             <div className="col-md-6 wow fadeInUp">
               <img src="assets/images/img_3.png" className="w-100 mb-5" alt="Digital Product Design"/>
-              <p className="section-text-light">Apaixonado por tecnologia, estou sempre em busca de desafios que me permitam aplicar minhas habilidades e aprender novas soluções. Se você procura um profissional comprometido e orientado a resultados!</p>
+              <p className="section-text-light">Participação em projetos de alta escala utilizando RabbitMQ, Redis, Swoole e estratégias de cache em memória, aplicando processamento assíncrono e alta concorrência para garantir sistemas mais rápidos, estáveis e eficientes.</p>
               <a href='/curriculo_giovani_appezzato.pdf' className="hiro-btn-outline" target='_blank'>
                 Baixar Currículo
               </a>
@@ -123,8 +123,8 @@ function Home() {
               <div className="col-md-4 mb-4 mb-md-0 wow fadeInUp">
                   <h6 className="service-category-title">Frontend</h6>
                   <ul className="service-list list-group list-group-flush">
-                    <li className="list-group-item">React & React Native</li>
-                    <li className="list-group-item">Next.js</li>
+                    <li className="list-group-item">JavaScript</li>
+                    <li className="list-group-item">React & React Native & Next.js</li>
                     <li className="list-group-item">Vue.js</li>
                     <li className="list-group-item">Ionic</li>
                     <li className="list-group-item">Mais...</li>
@@ -134,17 +134,17 @@ function Home() {
                 <h6 className="service-category-title">Backend</h6>
                 <ul className="service-list list-group list-group-flush">
                   <li className="list-group-item">PHP</li>
-                  <li className="list-group-item">Laravel & Slim</li>
+                  <li className="list-group-item">Laravel & Slim & Hyperf</li>
                   <li className="list-group-item">Node.js</li>
-                  <li className="list-group-item">ASP.NET Core</li>
+                  <li className="list-group-item">Golang</li>
                   <li className="list-group-item">Mais...</li>
                 </ul>
               </div>
               <div className="col-md-4 mb-4 mb-md-0 wow fadeInUp">
                 <h6 className="service-category-title">Outros</h6>
                 <ul className="service-list list-group list-group-flush">
-                  <li className="list-group-item">Redis & Socket</li>
-                  <li className="list-group-item">Mensageria</li>
+                  <li className="list-group-item">Redis & RabbitMQ</li>
+                  <li className="list-group-item">Swoole & Concorrência</li>
                   <li className="list-group-item">Scrum & Kanban</li>
                   <li className="list-group-item">MVC & Domain Driven Design</li>
                   <li className="list-group-item">Mais...</li>
@@ -170,9 +170,26 @@ function Home() {
                   Clique para ver o aplicativo
                 </a>
               </div>
+              <div className="project-card wow fadeInUp">
+                <img src="assets/images/saic.png" alt="Project" className="project-thumbnail"/>
+                <h6 className="project-title" style={{ color: "#228ca0" }}>SAIC (Solução de atendimento integrado ao cidadão)</h6>
+                <p className="Project-category text-justify">
+                  Sistema de gestão 156 para cidades, projetado para aprimorar a comunicação entre a população e a prefeitura, com integração a um modelador BPMN que possibilita a criação e automação de processos municipais sem a necessidade de codificação.
+                </p>
+              </div>
             </div>
             <div className="col-md-4 project-column-indented">
-             <div className="project-card wow fadeInUp">
+              <div className="project-card wow fadeInUp">
+                <img src="assets/images/logzz.png" alt="Project" className="project-thumbnail"/>
+                <h6 className="project-title" style={{ color: "#13c366" }}>Logzz</h6>
+                <p className="Project-category text-justify">
+                  A primeira e maior plataforma de afiliação para produtos físicos com Cash on Delivery do Brasil.
+                </p>
+                <a className='text-black' style={{ fontSize: "14px" }} href="https://logzz.com.br/" target="_blank">
+                  Clique aqui para ver o site
+                </a>
+              </div>
+              <div className="project-card wow fadeInUp">
                 <img src="assets/images/writeflow.jpg" alt="Project" className="project-thumbnail"/>
                 <h6 className="project-title" style={{ color: "#810dca" }}>Writeflow</h6>
                 <p className="Project-category text-justify">
@@ -182,15 +199,18 @@ function Home() {
                   Clique aqui para ver o site
                 </a>
               </div>
-              <div className="project-card wow fadeInUp">
-                <img src="assets/images/saic.png" alt="Project" className="project-thumbnail"/>
-                <h6 className="project-title" style={{ color: "#228ca0" }}>SAIC (Solução de atendimento integrado ao cidadão)</h6>
-                <p className="Project-category text-justify">
-                  Sistema de gestão 156 para cidades, projetado para aprimorar a comunicação entre a população e a prefeitura, com integração a um modelador BPMN que possibilita a criação e automação de processos municipais sem a necessidade de codificação.
-                </p>
-              </div>
             </div>
             <div className="col-md-4 wow fadeInUp">
+              <div className="project-card wow fadeInUp">
+                <img src="assets/images/coinzz.png" alt="Project" className="project-thumbnail"/>
+                <h6 className="project-title" style={{ color: "#770dd3" }}>Coinzz</h6>
+                <p className="Project-category text-justify">
+                  Plataforma completa de vendas online que oferece ferramentas para produtores e afiliados escalarem seus negócios digitais.
+                </p>
+                <a className='text-black' style={{ fontSize: "14px" }} href="https://coinzz.com.br/" target="_blank">
+                  Clique aqui para ver o site
+                </a>
+              </div>
               <div className="project-card wow fadeInUp">
                 <img src="assets/images/lovekar.png" alt="Project" className="project-thumbnail"/>
                 <h6 className="project-title" style={{ color: "#a6252a" }}>Lovekar Automotive</h6>
@@ -209,10 +229,10 @@ function Home() {
       <section className="contact-section hiro-section">
         <div className="container wow fadeInUp">
           <h6 className="font-weight-semibold mb-4 mb-md-0">
-            Se você precisa de um profissional comprometido e proativo, estou à disposição!
+            Se gostou do meu trabalho, entre em contato comigo.
           </h6>
           <h2 className="section-title">
-            Vamos conversar?
+            Informações de contato
           </h2>
           <div className="contact-address">
             <div className="row">
