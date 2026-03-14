@@ -38,9 +38,9 @@ function Home() {
               <div className="carousel-item active">
                 <div className="row">
                   <div className="col-md-6">
-                    <h1 className="carousel-item-title" data-animation="animated fadeInRight" data-number="01"><span>Giovani Appezzato N. Rosa</span></h1>
+                    <h1 className="carousel-item-title" data-animation="animated fadeInRight"><span>Giovani Appezzato N. Rosa</span></h1>
                     <p className="carousel-item-description" data-animation="animated fadeInRight">
-                      Desenvolvedor de Software - PHP, Laravel, Hyperf, Go, Next.js, Vue.js.
+                      Software Developer - PHP, Laravel, Hyperf, Go, Next.js, Vue.js.
                     </p>
                     <a href="#about" className="carousel-item-link link-hover-fx" data-animation="animated fadeInRight">VER MAIS</a>
                     <ul className="carousel-item-social-links nav" data-animation="animated fadeInRight">
@@ -101,12 +101,13 @@ function Home() {
             <div className="col-md-6 d-flex flex-column justify-content-center wow fadeInUp">
               <h2 className="section-title mb-3">Sobre</h2>
               <p className="section-text-ct">
-                Analista de Sistemas e Desenvolvedor Full Stack, com mais de 4 anos de experiência no desenvolvimento de aplicações web e mobile, atuando com foco em performance, escalabilidade e boas práticas no desenvolvimento de APIs REST.
+                Analista de Sistemas e Desenvolvedor Full Stack com 4 anos de experiência na criação e evolução de aplicações web e mobile. Apaixonado por arquitetura de software, design patterns e boas práticas de desenvolvimento.
               </p>
             </div>
             <div className="col-md-6 wow fadeInUp">
               <img src="assets/images/img_3.png" className="w-100 mb-5" alt="Digital Product Design"/>
-              <p className="section-text-light">Participação em projetos de alta escala utilizando RabbitMQ, Redis, Swoole e estratégias de cache em memória, aplicando processamento assíncrono e alta concorrência para garantir sistemas mais rápidos, estáveis e eficientes.</p>
+              <p className="section-text-light mb-3">Atuação em projetos de grande escala, participando da construção e evolução de plataformas com centenas de milhares de usuários, enfrentando desafios relacionados a alta concorrência, processamento assíncrono e performance de sistemas.</p>
+              <p className="section-text-light">Minhas experiências foram concentradas no desenvolvimento de sistemas de marketplaces com logística de entregas, plataformas de telefonia e soluções voltadas à gestão pública, incluindo plataformas de gestão escolar e sistemas internos utilizados por secretarias.</p>
               <a href='/curriculo_giovani_appezzato.pdf' className="hiro-btn-outline" target='_blank'>
                 Baixar Currículo
               </a>
@@ -118,7 +119,7 @@ function Home() {
       <section className="hiro-section" id="services">
         <div className="container">
           <div className="service-section">
-            <h2 className="section-title career-section-title">Conhecimento em:</h2>
+            <h2 className="section-title career-section-title">Competências:</h2>
             <div className="row">
               <div className="col-md-4 mb-4 mb-md-0 wow fadeInUp">
                   <h6 className="service-category-title">Frontend</h6>
@@ -126,7 +127,7 @@ function Home() {
                     <li className="list-group-item">JavaScript</li>
                     <li className="list-group-item">React & React Native & Next.js</li>
                     <li className="list-group-item">Vue.js</li>
-                    <li className="list-group-item">Ionic</li>
+                    <li className="list-group-item">jQuery</li>
                     <li className="list-group-item">Mais...</li>
                   </ul>
               </div>
@@ -135,8 +136,8 @@ function Home() {
                 <ul className="service-list list-group list-group-flush">
                   <li className="list-group-item">PHP</li>
                   <li className="list-group-item">Laravel & Slim & Hyperf</li>
-                  <li className="list-group-item">Node.js</li>
-                  <li className="list-group-item">Golang</li>
+                  <li className="list-group-item">Node.js & NestJS</li>
+                  <li className="list-group-item">Go (Golang)</li>
                   <li className="list-group-item">Mais...</li>
                 </ul>
               </div>
@@ -145,7 +146,7 @@ function Home() {
                 <ul className="service-list list-group list-group-flush">
                   <li className="list-group-item">Redis & RabbitMQ</li>
                   <li className="list-group-item">Swoole & Concorrência</li>
-                  <li className="list-group-item">Scrum & Kanban</li>
+                  <li className="list-group-item">SOLID & Design Patterns</li>
                   <li className="list-group-item">MVC & Domain Driven Design</li>
                   <li className="list-group-item">Mais...</li>
                 </ul>
@@ -247,7 +248,7 @@ function Home() {
             <div className="row">
               <div className="col-md-5">
                 <p className="font-weight-medium">
-                  R. Padre Anchieta, 749 <br/> Centro Caraguatatuba – SP
+                  Vila Independência, <br/> São Paulo – SP
                 </p>
               </div>
               <div className="col-md-5 mb-4 mb-md-0">
